@@ -6,61 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <!--my css-->
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+    <nav class=" navbar navbar-expand-lg bg-white fixed-top shadow-sm">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img/navbar.png" alt="Bootstrap" width="190" height="50" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <!--untuk sebelah akanan kita tamba ms-auto -->
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Layanan Kami</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Cek Stunting</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Artikel</a>
-                    </li>
-                    <button class="btn btn-outline-success me-3" type="button">Masuk</button>
-                    <button class="btn btn-success" type="button">Daftar</button>
-                </ul>
+            <a class="navbar-brand" href="#"> <img src="img/navbar.png" alt="" width="150" height="48"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Sipenting</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Layanan Kami</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cek Stunting</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Artikel</a>
+                        </li>
+
+                    </ul>
+                    <a href="#" class="btn btn-outline-success me-3">Masuk</a>
+                    <a href="#" class=" btn btn-success">Daftar</a>
+                </div>
             </div>
         </div>
     </nav>
+
     <!--end navbar-->
     <!--hero -->
     <div class="hero-view" id="#hero">
         <div class="text-center" id="hero">
-            <div class="container px-3 mt-lg-5">
+            <div class="container px-3 mt-5">
                 <div class="row mb-md-0 mb-5">
-                    <div class="col-lg-6">
-                        <div class="hero-content">
-                            <h1 class="text-lg-start fw-bold main-title">
-                                Sipenting <span>Sistem Pencegahan Stunting</span>
+                    <div class="col-lg-6 py-lg-5 ">
+                        <div class="hero-content py-5">
+                            <h1 class="text-lg-start fw-bold main-title ">
+                                Sipenting <span class="singkatan">Sistem Pencegahan Stunting</span>
                             </h1>
-                            <p class="text-lg-start mt-4 main-content">
+                            <p class="text-lg-start mt-lg-2 main-content fs-5">
                                 SIPENTING merupakan layanan konsultasi stunting, cek stunting dan edukasi yang bertujuan untuk pencegahan stunting pada masyakarat Indonesia.
                                 <div class="mt-4 text-lg-start">
-                                    <button>ge</button>
+                                    <a href="#" class="btn btn-success"> Coba cek stunting</a>
                                 </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="text-center text-lg-start mt-6">
-                            <img src="img/hero.png" class="hero-img" width="600" height="600">
+                            <img src="img/hero.png" class="hero-img img-fluid" width="500" height="500 ">
                         </div>
                     </div>
                 </div>
@@ -68,7 +74,9 @@
         </div>
         <!--akhir hero-->
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe " crossorigin="anonymous "></script>
 </body>
 
 </html>
