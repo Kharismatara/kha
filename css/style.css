@@ -3,6 +3,34 @@
   --font: #1a2c24;
   --yellow: #f8d95f;
 }
+
 .singkatan {
   color: var(--primary);
+}
+.main-title {
+  color: var(--font);
+}
+.btnmasuk {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+.btndaftar {
+  background-color: var(--primary);
+  color: white;
+}
+.btnmasuk:hover {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+.btndaftar:hover {
+  background-color: #ffffff;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+.btncek {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  background-color: var(--primary);
+  text-decoration: none;
+  color: white;
 }
