@@ -34,3 +34,10 @@
   text-decoration: none;
   color: white;
 }
+.jstastitik {
+  color: var(--primary);
+}
+
+.csta {
+  border-color: solid 1px var(--primary);
+}
