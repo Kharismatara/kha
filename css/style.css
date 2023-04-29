@@ -46,3 +46,7 @@ body {
 .linkaertikel {
   color: var(--primary);
 }
+//cek stunting
+.main-title {
+  font-size: 44px;
+}
