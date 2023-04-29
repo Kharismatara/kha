@@ -3,6 +3,9 @@
   --font: #1a2c24;
   --yellow: #f8d95f;
 }
+body {
+  font-family: "Poppins", sans-serif;
+}
 
 .singkatan {
   color: var(--primary);
