@@ -6,7 +6,11 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
+//navbar
+.logonavbar{
+  width:"150"; 
+  height:"48":
+}
 .singkatan {
   color: var(--primary);
 }
@@ -46,7 +50,15 @@ body {
 .linkaertikel {
   color: var(--primary);
 }
+
 //cek stunting
 .main-title {
   font-size: 44px;
+}
+footer {
+  background-color: #1b443b;
+}
+.footericons a {
+  font-size: 2rem;
+  color: white;
 }
