@@ -21,7 +21,7 @@
     <!--navbar-->
     <nav class="navbar navbar-expand-lg bg-white fixed-top shadow-sm">
       <div class="container">
-        <a class="navbar-brand" href="#"> <img src="img/navbar.png" alt="" width="150 " height="48" /></a>
+        <a class="navbar-brand" href="#"> <img src="img/navbar.png" alt="" width="150" height="48" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,13 +33,13 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Beranda</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Layanan Kami</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Cek Stunting</a>
+                <a class="nav-link" href="#">Cek Stunting</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Artikel</a>
@@ -51,9 +51,8 @@
         </div>
       </div>
     </nav>
-
     <!--end navbar-->
-    <!--hero -->
+    <!--hero  cek stunting -->
     <div class="hero-view" id="#hero">
       <div class="text-center" id="hero">
         <div class="container px-3 mt-5">
@@ -74,10 +73,10 @@
           </div>
         </div>
       </div>
-      <!--akhir hero-->
-      <!--cek stunting -->
+      <!--end hero  cek stunting   -->
+      <!-- form cek stunting-->
       <div class="container text-center mt-5">
-        <h3 class="fw-bold mt-7 mb-4">Masukan Data Antropometri Anak Anda</h3>
+        <h3 class="fw-700 mt-7 mb-4">Masukan Data Antropometri Anak Anda</h3>
       </div>
     </div>
     <form action="">
@@ -111,20 +110,114 @@
               <input type="number" class="form-control ps-4 mb-3 border-2 rounded-5" id="Umur" name="Umur" placeholder="Masukkan Umur" required />
             </div>
             <div class="form-group">
-              <label for="">Tinggi Badan(cm)</label>
+              <label for="">Tinggi Badan</label>
               <input type="number" class="form-control ps-4 mb-3 border-2 rounded-5" id="tinggi" name="tinggi" placeholder="Masukkan Tinggi" required />
             </div>
           </div>
         </div>
-        <div class="mt-5 text-sm-center mb-5 p-md-5">
-          <a href="hasilStunting.html" class="btncek rounded-5 px-sm-3" type="submit" role="button">Mulai Hitung</a>
+        <div class="mt-4 text-sm-center mb-5">
+          <button type="submit" class="btn btncustom y p-2 m-2">Mulai Hitung</button>
         </div>
       </div>
     </form>
     <!--end cek stunting-->
+    <!-- hasil cek stunting-->
+    <div class="cek-section mb-5 mt-3 p-md-5 me-md-5 ms-md-5" id="result" style="display: none">
+      <div class="container p-sm-3 my-5">
+        <div class="container text-center">
+          <div class="mb-5 cek-header p-5">
+            <h4 class="fw-bold fs-2">Hasil Perhitungan cek stunting</h4>
+          </div>
+        </div>
+        <div class="container-hasil mt-sm-5 mx-auto">
+          <div class="container-nama mb-2 p-3">
+            <h4>Nama :</h4>
+          </div>
+          <div class="container-nama mb-2 p-3">
+            <h4>Jenis Kelamin:</h4>
+          </div>
+          <div class="container-nama mb-2 p-3">
+            <h4>Berat Badan :</h4>
+          </div>
+          <div class="container-nama mb-2 p-3">
+            <h4>Tinggi badan :</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end  hasil cek stunting-->
+    <!--artikel-->
+    <div class="container text-start">
+      <h3 class="fw-bold ms-3 mt-7 mb-4 pt-5">Artikel Terkait</h3>
+      <div class="row mt-5">
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="mx-4">
+            <div class="img-wrapper">
+              <img src="img/artikel1.png " class="d-block w-100" style="border-radius: 15px" alt="... " />
+            </div>
+            <div class="labelartike text-start mt-3">
+              <h5>Konseling</h5>
+            </div>
+            <div class="news-content mt-2">
+              <p class="card-text text-start fs-7">Stunting pada anak kondisi gagal tumbuh yang diakibatkan oleh kekurangan gizi kronis.</p>
+              <div class="text-end linkaertikel">
+                <a href="https://www.merdeka.com/peristiwa/bupati-banyuwangi-libatkan-perempuan-lawan-terorisme.html " class="btn fs-7">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="mx-4">
+            <div class="img-wrapper">
+              <img src="img/artikel2.png " class="d-block w-100" style="border-radius: 15px" alt="... " />
+            </div>
+            <div class="labelartike text-start mt-3">
+              <h5>Makanan Bergizi</h5>
+            </div>
+            <div class="news-content mt-2">
+              <p class="card-text text-start fs-7">Stunting terjadi ketika anak mengalami gangguan tumbuh kembang yang dialami</p>
+              <div class="text-end linkaertikel">
+                <a href="https://news.detik.com/berita-jawa-timur/d-5518807/bupati-banyuwangi-perempuan-pelaku-terorisme-bukan-bentuk-kesetaraan-gender?single=1 " class="btn fs-7">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="mx-4">
+            <div class="img-wrapper">
+              <img src="img/artikel3.png " class="d-block w-100" style="border-radius: 15px" alt="... " />
+            </div>
+            <div class="labelartike text-start mt-3">
+              <h5>Konseling</h5>
+            </div>
+            <div class="news-content mt-2">
+              <p class="card-text text-start fs-7">Pencegahan stunting pada anak dengan memenuhi gizi pada masa pertumbuhan</p>
+              <div class="text-end linkaertikel">
+                <a href="https://nasional.tempo.co/read/1448618/lp3es-catat-peran-perempuan-dalam-jaringan-terorisme-meningkat " class="btn fs-7">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--end artikel-->
+    <!--konseling-->
+    <div class="container text-start">
+      <h3 class="fw-bold ms-3 mt-7 mb-4 pt-5">Layanan Konsultasi</h3>
+      <div class="row mt-2 ps-2 mb-5 d-lg-flex justify-content-between">
+        <div class="col-8">
+          <p class="ms-2">Dapatkan konsultasi medis anak yang cepat dan mudah dari konselor kami yang berpengalaman. Konsultasi medis anak yang nyaman dan aman dari rumah Anda sendiri</p>
+        </div>
+        <div class="col-3">
+          <a href=" " class="btncek rounded-5 px-sm-3">Konseling Sekarang</a>
+        </div>
+      </div>
+    </div>
+    <!--endkonseling-->
 
     <!--footer-->
-    <footer class="px-md-0 px-3">
+    <footer class="footercolo px-md-0 px-3">
       <div class="container">
         <div class="row pt-5 pb-5 d-flex justify-content-around">
           <div class="col-md-4 col-lg-3">
@@ -178,10 +271,10 @@
             </div>
           </div>
           <hr class="bg-white mt-sm-1 pt-sm-1" />
-          <div class="row mt-sm-3">
-            <div class="col-4 fs-6 fw-medium text-white">© 2023 SIPENTING Teams All rights reserved</div>
-            <div class="col-4 fs-6 fw-medium text-white text-end">Syarat & Ketentuan</div>
-            <div class="col-4 fs-6 fw-medium text-white text-end">Kebijakan Privasi</div>
+          <div class="row mt-3 d-flex justify-conten">
+            <div class="col-lg-4 fs-6 fw-medium text-white">© 2023 SIPENTING Teams All rights reserved</div>
+            <div class="col-lg-3 fs-6 fw-medium text-white ms-auto">Syarat & Ketentuan</div>
+            <div class="col-lg-3 fs-6 fw-medium text-white ms-auto">Kebijakan Privasi</div>
           </div>
         </div>
       </div>
