@@ -79,50 +79,50 @@
         <h3 class="fw-700 mt-7 mb-4">Masukan Data Antropometri Anak Anda</h3>
       </div>
     </div>
-    <form action="">
+    <form action="" onsubmit="cekStunting(event)">
       <div class="container">
         <div class="row mt-4">
           <div class="col-md-6">
             <div class="form-group">
-              <label for="">Nama Lengkap</label>
-              <input type="text" class="form-control ps-4 mb-3 border-2 b rounded-5" id="nama" name="nama" placeholder="Masukkan Nama" required />
+              <label for=" ">Nama Lengkap</label>
+              <input type="text " class="form-control ps-4 mb-3 border-2 b rounded-5" id="nama " name="nama " placeholder="Masukkan Nama " required />
             </div>
             <div class="form-group">
-              <label for="">Pilih Jenis Kelamin</label>
-              <select class="form-control ps-4 mb-3 border-2 rounded-5" id="jk" required>
+              <label for=" ">Pilih Jenis Kelamin</label>
+              <select class="form-control ps-4 mb-3 border-2 rounded-5" id="jk" name="jk" required>
                 <option value=" ">Jenis Kelamin :</option>
                 <option value="laki-laki ">Laki-laki</option>
                 <option value="perempuan ">Perempuan</option>
               </select>
             </div>
             <div class="form-group">
-              <label for="">Berat Badan(kg)</label>
-              <input type="number" class="form-control ps-4 mb-3 border-2 rounded-5" id="bb" name="bb" placeholder="Masukkan Berat Badan " required />
+              <label for=" ">Berat Badan(kg)</label>
+              <input type="number " class="form-control ps-4 mb-3 border-2 rounded-5" id="bb " name="bb " placeholder="Masukkan Berat Badan " required />
             </div>
           </div>
           <div class="col-md-6">
             <div class="form-group">
-              <label for="">Tanggal Lahir</label>
-              <input type="date" class="form-control ps-4 mb-3 border-2 rounded-5" id="tl" name="tl" required />
+              <label for=" ">Tanggal Lahir</label>
+              <input type="date " class="form-control ps-4 mb-3 border-2 rounded-5" id="tl " name="tl " required />
             </div>
             <div class="form-group">
-              <label for="">Umur</label>
-              <input type="number" class="form-control ps-4 mb-3 border-2 rounded-5" id="Umur" name="Umur" placeholder="Masukkan Umur" required />
+              <label for=" ">Umur</label>
+              <input type="number " class="form-control ps-4 mb-3 border-2 rounded-5" id="umur " name="Umur " placeholder="Masukkan Umur " required />
             </div>
             <div class="form-group">
-              <label for="">Tinggi Badan</label>
-              <input type="number" class="form-control ps-4 mb-3 border-2 rounded-5" id="tinggi" name="tinggi" placeholder="Masukkan Tinggi" required />
+              <label for=" ">Tinggi Badan</label>
+              <input type="number " class="form-control ps-4 mb-3 border-2 rounded-5" id="tinggi " name="tinggi " placeholder="Masukkan Tinggi " required />
             </div>
           </div>
         </div>
-        <div class="mt-4 text-sm-center mb-5">
-          <button type="submit" class="btn btncustom y p-2 m-2">Mulai Hitung</button>
+        <div class="mt-4 text-sm-center mb-5 buttoncustom">
+          <button type="submit " class="btn y p-2 m-2">Mulai Hitung</button>
         </div>
       </div>
     </form>
     <!--end cek stunting-->
     <!-- hasil cek stunting-->
-    <div class="cek-section mb-5 mt-3 p-md-5 me-md-5 ms-md-5" id="result" style="display: none">
+    <div class="cek-section mb-5 mt-3 p-md-5 me-md-5 ms-md-5" id="result " style="display: none">
       <div class="container p-sm-3 my-5">
         <div class="container text-center">
           <div class="mb-5 cek-header p-5">
@@ -133,13 +133,13 @@
           <div class="container-nama mb-2 p-3">
             <h4>Nama :</h4>
           </div>
-          <div class="container-nama mb-2 p-3">
+          <div class="container-jeniskelain mb-2 p-3">
             <h4>Jenis Kelamin:</h4>
           </div>
-          <div class="container-nama mb-2 p-3">
+          <div class="container-bb mb-2 p-3">
             <h4>Berat Badan :</h4>
           </div>
-          <div class="container-nama mb-2 p-3">
+          <div class="container-tinggi mb-2 p-3">
             <h4>Tinggi badan :</h4>
           </div>
         </div>
@@ -221,16 +221,16 @@
       <div class="container">
         <div class="row pt-5 pb-5 d-flex justify-content-around">
           <div class="col-md-4 col-lg-3">
-            <img src="img/Logofooter.png" width="200" alt="" />
+            <img src="img/Logofooter.png " width="200 " alt=" " />
             <p class="fw-medium text-white mt-4 fs-8">Cegah stunting itu penting bersama SIPENTING. #SayNoToStunting</p>
             <div class="d-flex justify-content ms-auto footericons">
-              <a href="#" class="me-3 text-decoration-none">
+              <a href="# " class="me-3 text-decoration-none">
                 <i class="bi bi-facebook"></i>
               </a>
-              <a href="#" class="me-3 text-decoration-none">
+              <a href="# " class="me-3 text-decoration-none">
                 <i class="bi bi-instagram"></i>
               </a>
-              <a href="#" class="text-decoration-none">
+              <a href="# " class="text-decoration-none">
                 <i class="bi bi-whatsapp"></i>
               </a>
             </div>
@@ -240,11 +240,11 @@
               <h5 class="text-white fw-bold fs-5">Halaman Menu</h5>
 
               <div class="fw-medium text-white">
-                <a class="d-block text-white mb-3 text-decoration-none" href="">Beranda </a>
-                <a class="d-block text-white mb-3 text-decoration-none" href="">Cek Stunting </a>
-                <a class="d-block text-white mb-3 text-decoration-none" href="">Layanan Kami</a>
-                <a class="d-block text-white mb-3 text-decoration-none" href="">Masuk</a>
-                <a class="d-block text-white mb-3 text-decoration-none" href="">Daftar </a>
+                <a class="d-block text-white mb-3 text-decoration-none" href=" ">Beranda </a>
+                <a class="d-block text-white mb-3 text-decoration-none" href=" ">Cek Stunting </a>
+                <a class="d-block text-white mb-3 text-decoration-none" href=" ">Layanan Kami</a>
+                <a class="d-block text-white mb-3 text-decoration-none" href=" ">Masuk</a>
+                <a class="d-block text-white mb-3 text-decoration-none" href=" ">Daftar </a>
               </div>
             </div>
           </div>
@@ -253,9 +253,9 @@
               <h5 class="text-white fw-bold">Layanan</h5>
 
               <div class="fw-medium text-white">
-                <a class="d-block text-white mb-3 text-decoration-none" href="">Konsultasi</a>
-                <a class="d-block text-white mb-3 text-decoration-none" href="">Cek Stunting</a>
-                <a class="d-block text-white mb-3 text-decoration-none" href="">Artikel</a>
+                <a class="d-block text-white mb-3 text-decoration-none" href=" ">Konsultasi</a>
+                <a class="d-block text-white mb-3 text-decoration-none" href=" ">Cek Stunting</a>
+                <a class="d-block text-white mb-3 text-decoration-none" href=" ">Artikel</a>
               </div>
             </div>
           </div>
@@ -264,9 +264,9 @@
               <h5 class="text-white fw-bold">Kontak Kami</h5>
 
               <div class="fw-medium text-white">
-                <a class="d-block text-white mb-3 text-decoration-none" href="/#home"><i class="bi bi-envelope"></i> halo@sipenting.net </a>
-                <a class="d-block text-white mb-3 text-decoration-none" href="/#pengaduan"> <i class="bi bi-telephone"></i> +6289955000233 (cs)</a>
-                <a class="d-block text-white mb-3 text-decoration-none" href="/#pengaduan"> <i class="bi bi-geo-alt"></i> Jl. Bahagia No. 20 B, Bandung, Jawa Barat 40238</a>
+                <a class="d-block text-white mb-3 text-decoration-none" href="/#home "><i class="bi bi-envelope"></i> halo@sipenting.net </a>
+                <a class="d-block text-white mb-3 text-decoration-none" href="/#pengaduan "> <i class="bi bi-telephone"></i> +6289955000233 (cs)</a>
+                <a class="d-block text-white mb-3 text-decoration-none" href="/#pengaduan "> <i class="bi bi-geo-alt"></i> Jl. Bahagia No. 20 B, Bandung, Jawa Barat 40238</a>
               </div>
             </div>
           </div>
